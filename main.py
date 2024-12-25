@@ -6,6 +6,9 @@ import json
 from moderation import Moderation
 from kick_integration import KickIntegration
 from crypto_integration import CryptoIntegration
+from keep_alive import keep_alive
+keep_alive()
+
 
 # Load config
 with open('config.json') as f:
